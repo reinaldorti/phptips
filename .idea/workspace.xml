@@ -8,7 +8,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/ep01/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -21,6 +21,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ep01" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ep01" />
+      <recent name="$PROJECT_DIR$/ep02" />
+      <recent name="$PROJECT_DIR$/ep03" />
+      <recent name="$PROJECT_DIR$/ep04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ep05" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574026766649</updated>
       <workItem from="1574026767826" duration="258000" />
+      <workItem from="1574027984862" duration="116000" />
     </task>
     <servers />
   </component>
@@ -56,7 +68,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
