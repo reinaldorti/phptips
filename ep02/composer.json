@@ -1,0 +1,26 @@
+{
+  "name": "reinaldorti/phptips002",
+  "description": "Abstração de banco de dados com data layer | PHP Tips #004",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.2"
+  }
+}

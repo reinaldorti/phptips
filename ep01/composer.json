@@ -1,0 +1,26 @@
+{
+  "name": "reinaldorti/phptips001",
+  "description": "Conhecendo composer e configurando IDE | PHP Tips #001",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.0.*"
+  }
+}
