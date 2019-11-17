@@ -21,6 +21,8 @@
     ]
   },
   "require": {
-    "coffeecode/router": "1.0.*"
+    "fzaninotto/faker": "1.0.*",
+    "coffeecode/datalayer": "1.0.*"
   }
 }
+
