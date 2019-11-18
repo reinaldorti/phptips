@@ -1,6 +1,6 @@
 {
-  "name": "reinaldorti/phptips005",
-  "description": "Gerando Blog com Paginação de resualtados | PHP Tips #005",
+  "name": "reinaldorti/phptips/tree/master/ep05",
+  "description": "Gerando Blog com paginação de Resultados | PHP Tips #005",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
@@ -21,9 +21,8 @@
     ]
   },
   "require": {
-    "fzaninotto/faker": "1.8.*",
+    "fzaninotto/faker": "1.9.*",
     "coffeecode/datalayer": "1.1.*",
     "coffeecode/paginator": "1.0.*"
   }
 }
-

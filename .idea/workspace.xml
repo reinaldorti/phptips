@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85053cc3-d49e-4440-a85d-7123c5a3fc4e" name="Default Changelist" comment="" />
+    <list default="true" id="85053cc3-d49e-4440-a85d-7123c5a3fc4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ep05/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ep05/composer.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
   <component name="ProjectId" id="1TlFRQ4fVb4BMvUwl7dgHUmpvYK" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ep01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,6 +59,7 @@
       <updated>1574026766649</updated>
       <workItem from="1574026767826" duration="258000" />
       <workItem from="1574027984862" duration="116000" />
+      <workItem from="1574066263655" duration="21000" />
     </task>
     <servers />
   </component>
