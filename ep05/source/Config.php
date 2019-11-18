@@ -1,5 +1,4 @@
 <?php
-
 define("DATA_LAYER_CONFIG", [
     "driver" => "mysql",
     "host" => "localhost",
