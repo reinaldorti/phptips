@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85053cc3-d49e-4440-a85d-7123c5a3fc4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ep05/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ep05/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phptips.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phptips.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ep01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ep01/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ep02/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ep02/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ep03/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ep03/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ep04/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ep04/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ep05/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ep05/.gitignore" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,37 +20,44 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/ep01/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <phar pharPath="$PROJECT_DIR$/ep05/composer.phar" interpreterId="d6a06776-105e-47ab-9d24-51d8f4eff780" />
     </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TlFRQ4fVb4BMvUwl7dgHUmpvYK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ep05" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ep01" />
       <recent name="$PROJECT_DIR$/ep02" />
       <recent name="$PROJECT_DIR$/ep03" />
       <recent name="$PROJECT_DIR$/ep04" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ep05" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -60,6 +74,7 @@
       <workItem from="1574026767826" duration="258000" />
       <workItem from="1574027984862" duration="116000" />
       <workItem from="1574066263655" duration="21000" />
+      <workItem from="1577897314523" duration="580000" />
     </task>
     <servers />
   </component>
@@ -78,5 +93,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="467" y="363" width="505" height="244" key="ComposerInitDialogKey" timestamp="1577897434964">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="467" y="363" width="505" height="244" key="ComposerInitDialogKey/0.23.1440.837@0.23.1440.837" timestamp="1577897434964" />
   </component>
 </project>

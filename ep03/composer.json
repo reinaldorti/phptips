@@ -1,6 +1,6 @@
 {
-  "name": "reinaldorti/phptips/tree/master/ep03",
-  "description": "Enviando e-mail autenticados com phpmailer | PHP Tips #004",
+  "name": "reinaldorti/phptips003",
+  "description": "Enviando e-mail autenticados com phpmailer | PHP Tips #003",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [

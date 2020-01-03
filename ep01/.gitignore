@@ -6,7 +6,6 @@ composer.phar
 /vendor/
 
 ### Pastes ###
-cache/
 /nbproject/private/
 
 ### Linux ###
