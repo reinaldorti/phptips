@@ -1,0 +1,16 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "GERANDO MINIATURAS DE IMAGENS CROPPER",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "require": {
+    "fzaninotto/faker": "1.8.*",
+    "coffeecode/cropper": "1.2.*"
+  }
+}
