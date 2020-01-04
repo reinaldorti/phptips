@@ -1,0 +1,23 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "UPLOAD DE IMAGENS E ARQUIVOS COM UPLOADER | PHP TIPS #010",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/uploader": "1.0.*"
+  }
+}
