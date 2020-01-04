@@ -1,0 +1,23 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "LOGS, ALERTAS E MONITORAMENTO COM MONOLOG | PHP TIPS #011",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "monolog/monolog": "2.0.*"
+  }
+}
