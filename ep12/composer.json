@@ -1,0 +1,25 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "MANIPULANDO DADOS EM ARQUIVO CSV COM PHP | PHP TIPS #012",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*",
+    "fzaninotto/faker": "v1.8.*",
+    "league/csv": "9.3.*"
+  }
+}
