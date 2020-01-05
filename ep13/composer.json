@@ -1,0 +1,25 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "TRABALHANDO COM REQUISIÇÕES AJAX EM MVC | PHP TIPS #013",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.*",
+    "coffeecode/datalayer": "1.1.*",
+    "league/plates": "v4.0.0-alpha"
+  }
+}
