@@ -1,0 +1,24 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "GESTÃO DE SENHAS COM A API NATIVA DO PHP | PHP TIPS #018",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Minify.php"
+    ]
+  },
+  "require": {
+    "coffecode/datalayer": "1.1.*",
+    "pagarme/pagarme-php": "4.0.*"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "robsonvleite/phptips016",
+  "description": "MINIFICAÇÃO DE ARQUIVOS JS E CSS COM MINIFY",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robson V. Leite",
+      "email": "cursos@upinside.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Minify.php"
+    ]
+  },
+  "require": {
+    "matthiasmullie/minify": "1.3.*"
+  }
+}

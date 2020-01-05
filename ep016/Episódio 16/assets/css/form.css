@@ -1,0 +1,54 @@
+form {
+    width: 300px;
+    max-width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form label span {
+    display: block;
+    font-size: 0.875em;
+    margin-bottom: 5px;
+}
+
+form label input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+
+    font-size: 1em;
+}
+
+form button {
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    color: #FFFFFF;
+    background: var(--color_green);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+form button:hover {
+    background: var(--color_green_hover);
+}
+
+form .result {
+    display: none;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    color: var(--color_green_hover);
+    border: 1px solid var(--color_green_hover);
+    border-radius: 4px;
+}

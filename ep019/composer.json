@@ -1,0 +1,23 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "LOGIN SOCIAL VIA GOOGLE COM OAUTH 2 CLIENT | PHP TIPS #019",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Minify.php"
+    ]
+  },
+  "require": {
+    "league/oauth2": "3.0.*"
+  }
+}
