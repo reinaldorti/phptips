@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 require __DIR__ . "/vendor/autoload.php";
 
 $router = new \CoffeeCode\Router\Router(ROOT);
@@ -27,3 +29,5 @@ $router->dispatch();
 if ($error = $router->error()) {
     var_dump($error);
 }
+
+ob_end_flush();

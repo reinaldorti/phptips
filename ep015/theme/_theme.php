@@ -16,6 +16,8 @@
 </main>
 
 <script src="<?= asset("/js/jquery.js"); ?>"></script>
+<!--script src="https://code.jquery.com/jquery-3.4.1.min.js"></script-->
+
 <?= $v->section("js"); ?>
 
 </body>

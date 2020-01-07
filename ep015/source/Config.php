@@ -2,7 +2,7 @@
 /**
  * ROOT URL
  */
-define("ROOT", "https://www.localhost/phptips/ep15");
+define("ROOT", "https://localhost/cursos/ep015");
 
 /**
  * CONFIG DATABASE
