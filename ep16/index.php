@@ -1,4 +1,6 @@
-<!doctype html>
+<?php
+require "vendor/autoload.php";
+?><!doctype html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -7,9 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Minificando CSS e JS com PHP</title>
 
-    <link rel="stylesheet" href="assets/css/style.css"/>
-    <link rel="stylesheet" href="assets/css/box.css"/>
-    <link rel="stylesheet" href="assets/css/form.css"/>
+   <link rel="stylesheet" href="assets/style.min.css">
 </head>
 <body>
 <div class="box">
@@ -32,6 +32,5 @@
 </div>
 </body>
 
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/form.js"></script>
+<script src="assets/scripts.min.js"></script>
 </html>
