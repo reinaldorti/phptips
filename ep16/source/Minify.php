@@ -1,7 +1,7 @@
 <?php
 
 $minify = filter_input(INPUT_GET, "minify", FILTER_VALIDATE_BOOLEAN);
-if ($_SERVER["SERVER_PORT"] == "localhost" || $minify) {
+if ($_SERVER["SERVER_NAME"] == "localhost" || $minify) {
 
     //www.site.com.br/?minify=1
 
