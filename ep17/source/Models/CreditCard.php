@@ -9,6 +9,6 @@ class CreditCard extends DataLayer
 {
     public function __construct()
     {
-        parent::__construct("credit_cards", ["user", "hash","brand","last_cards"]);
+        parent::__construct("credit_cards", ["user", "hash", "brand", "last_digits"]);
     }
 }
