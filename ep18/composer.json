@@ -14,11 +14,10 @@
       "Source\\": "source/"
     },
     "files": [
-      "source/Minify.php"
+      "source/Config.php"
     ]
   },
   "require": {
-    "coffecode/datalayer": "1.1.*",
-    "pagarme/pagarme-php": "4.0.*"
+    "coffeecode/datalayer": "1.1.*"
   }
 }
