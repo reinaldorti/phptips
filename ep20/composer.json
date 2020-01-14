@@ -1,0 +1,23 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "MODELO, REGRA DE NEGÓCIO E VALIDAÇÃO DE DADOS | PHP TIPS #020",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*"
+  }
+}
