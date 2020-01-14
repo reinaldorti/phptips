@@ -14,10 +14,10 @@
       "Source\\": "source/"
     },
     "files": [
-      "source/Minify.php"
+      "source/Config.php"
     ]
   },
   "require": {
-    "league/oauth2": "3.0.*"
+    "league/oauth2-google": "3.0.*"
   }
 }
