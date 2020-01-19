@@ -8,14 +8,14 @@ use Source\Models\Post;
 $post = new Post();
 $page = filter_input(INPUT_GET, "page", FILTER_SANITIZE_STRIPPED);
 
-//$paginator = new Paginator("https://localhost/cursos/phptips/ep05/?page=", "Página", ["Primeira Página", "Primeira"],["Última Página", "Última"]);
-$paginator = new Paginator("https://localhost/cursos/phptips/ep05/?page=");
+//$paginator = new Paginator("https://localhost/cursos/youtube/phptips/ep05/?page=", "Página", ["Primeira Página", "Primeira"],["Última Página", "Última"]);
+$paginator = new Paginator("https://localhost/cursos/youtube/phptips/ep05/?page=");
 
 $paginator->pager($post->find()->count(), "3", $page, 2);
 
-$posts = $post->find()->limit(3)->offset(1)->fetch();
+$posts = $post->find()->limit(3)->offset(1)->fetch(true);
 
-echo"<p>Página {$paginator->page()} de {$paginator->pages()}</p>";
+echo "<p>Página {$paginator->page()} de {$paginator->pages()}</p>";
 
 if ($posts) {
 

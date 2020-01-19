@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.5.5-10.4.8-MariaDB)
+# Host: 127.0.0.1 (MySQL 5.5.5-10.4.11-MariaDB)
 # Base de Dados: phptips
-# Tempo de Geração: 2019-11-17 22:12:26 +0000
+# Tempo de Geração: 2020-01-19 20:06:35 +0000
 # ************************************************************
 
 
@@ -35,6 +35,24 @@ CREATE TABLE `addresses` (
 
 
 
+# Dump da tabela credit_cards
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `credit_cards`;
+
+CREATE TABLE `credit_cards` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `user` int(11) unsigned DEFAULT NULL,
+  `hash` varchar(255) DEFAULT NULL,
+  `brand` varchar(255) DEFAULT NULL,
+  `last_digits` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
 # Dump da tabela posts
 # ------------------------------------------------------------
 
@@ -42,9 +60,25 @@ DROP TABLE IF EXISTS `posts`;
 
 CREATE TABLE `posts` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `title` varchar(255) DEFAULT NULL,
+  `title` varchar(255) NOT NULL DEFAULT '',
   `cover` varchar(255) DEFAULT NULL,
-  `description` text DEFAULT NULL,
+  `description` text NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+# Dump da tabela products
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `products`;
+
+CREATE TABLE `products` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT '',
+  `price` decimal(10,2) DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `update_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -61,12 +95,23 @@ CREATE TABLE `users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `first_name` varchar(255) NOT NULL DEFAULT '',
   `last_name` varchar(255) NOT NULL DEFAULT '',
+  `email` varchar(255) NOT NULL DEFAULT '',
+  `password` varchar(255) NOT NULL DEFAULT '',
   `genre` varchar(10) DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+
+INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `password`, `genre`, `created_at`, `updated_at`)
+VALUES
+	(5,'Reinaldo','Dorti','reinaldorti2@hotmail.com','$2y$10$v7qDJbTu/cgFHL5D544PKeWmvl8loHEsPTs4AYTWqRhBE2yVCMTDu',NULL,'2020-01-14 17:14:41','2020-01-14 17:14:41');
+
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 
