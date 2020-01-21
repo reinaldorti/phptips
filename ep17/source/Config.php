@@ -1,6 +1,6 @@
 <?php
 /** BASE URL */
-define("ROOT", "https://localhost/cursos/ep17");
+define("ROOT", "");
 
 /** DATABASE CONNECT */
 define("DATA_LAYER_CONFIG", [

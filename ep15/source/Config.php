@@ -2,7 +2,7 @@
 /**
  * ROOT URL
  */
-define("ROOT", "https://localhost/cursos/ep015");
+define("ROOT", "");
 
 /**
  * CONFIG DATABASE

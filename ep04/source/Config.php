@@ -1,3 +1,3 @@
 <?php
 
-define("URL_BASE", "https://localhost/cursos/phptips/ep04");
+define("URL_BASE", "");
