@@ -9,6 +9,6 @@ use Source\Models\Address;
 $user = (new User())->findById(1);
 
 $addr = new Address();
-$addr->add($user, "casa do Cesar", "55");
+$addr->add($user, "Rua: Votuporanga", "55");
 
 $addr->save();
