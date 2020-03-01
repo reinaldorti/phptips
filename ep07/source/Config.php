@@ -1,6 +1,6 @@
 <?php
 
-define("ROOT", "");
+define("ROOT", "https://localhost/cursos/youtube/phptips/ep07");
 
 define("SITE", "#PHPTips");
 
