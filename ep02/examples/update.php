@@ -6,7 +6,7 @@ use Source\Models\User;
 $user = (new User())->findById(1);
 
 $user->first_name = "Reinaldo";
-$user->last_name = "Azevedo";
+$user->last_name = "Dorti";
 
 $user->save();
 

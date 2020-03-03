@@ -11,8 +11,7 @@ $user->genre = "M";
 $user->Save();
 
 $addr = new Address();
-$addr->add($user, "José Zocal", "41");
-
+$addr->add($user, "Casa 1", "99");
 $addr->save();
 
 var_dump($user);

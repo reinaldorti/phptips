@@ -24,6 +24,8 @@ $list = $user->find()->fetch(true);
 /** @var  $userItem User */
 foreach ($list as $userItem) {
 
+    var_dump($userItem->data());
+
     foreach ($userItem->adresses() as $address) {
 
         var_dump($address->data());
