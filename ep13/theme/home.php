@@ -68,6 +68,7 @@
                             users.prepend(callback.user);
                         }
 
+                        //LIMPA O IMPUT
                         $('form').each(function () {
                             this.reset();
                         });
