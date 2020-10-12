@@ -59,7 +59,10 @@
                         if (callback.message) {
                             form_ajax.html(callback.message).fadeIn();
                         } else {
-                            $(this).html("");
+                            //$(this).html("");
+                            form_ajax.fadeOut(function () {
+                                $(this).html("");
+                            });
                         }
 
                         if (callback.user) {

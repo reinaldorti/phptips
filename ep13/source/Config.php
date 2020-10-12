@@ -1,6 +1,6 @@
 <?php
 /** BASE URL */
-define("ROOT", "");
+define("ROOT", "http://localhost/cursos/youtube/phptips/ep13/");
 
 /** DATABASE CONNECT */
 define("DATA_LAYER_CONFIG", [

@@ -42,7 +42,7 @@ class Form
         $user->save();
 
         $callback["message"] = message("Usuário cadastrado com sucesso!", "success");
-        $callback["users"] = $this->view->render("user", ["user" => $user]);
+        $callback["user"] = $this->view->render("user", ["user" => $user]);
         echo json_encode($callback);
         return;
     }
