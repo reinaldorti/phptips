@@ -9,14 +9,6 @@
       "email": "reinaldorti@gmail.com"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "Source\\": "source/"
-    },
-    "files": [
-      "source/Config.php"
-    ]
-  },
   "require": {
     "coffeecode/uploader": "1.0.*"
   }

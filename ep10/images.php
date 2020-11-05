@@ -2,7 +2,7 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-$upload = new \CoffeeCode\Uploader\Image("storege", "images");
+$upload = new \CoffeeCode\Uploader\Image("storage", "images");
 $files = $_FILES;
 
 if (!empty($files["image"])) {
